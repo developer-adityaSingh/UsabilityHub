@@ -49,11 +49,12 @@ ul {
     list-style: none;
 }
 
-/* usability class */
+/* utility class */
 
 .flex{
     display: flex;
     align-items: center;
+    /* flex-wrap: wrap; */
 }
 
 .container{
@@ -216,6 +217,9 @@ nav{
     margin-top: 20px;
     gap: 35px;
 }
+.big-features-section-reverse{
+    flex-direction: row-reverse
+}
 .big-features-img img{
     width: 100%;
 }
@@ -298,6 +302,7 @@ nav{
     padding-block: 80px;
 }
 .main-footer-section{
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -333,3 +338,4 @@ nav{
     color: var(--secondary-text-color);
     font-size: 1.4rem;
 }
+
