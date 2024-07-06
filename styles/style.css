@@ -134,6 +134,16 @@ nav{
 
 .companies-logo img{
     width: 200px;
+    animation: slidein 1s ease-in-out;
+}
+
+@keyframes slidein {
+    0%{
+        transform: translateX(-500px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
 }
 
 .nav-links{
@@ -174,13 +184,13 @@ nav{
     margin-block: 25px;
 }
 
-.companies-logo{
+.companies-logos{
     justify-content: space-evenly;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.companies-logo img{
+.companies-logos img{
     height: 46px;
     width: auto;
 }
